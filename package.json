@@ -1,0 +1,24 @@
+{
+  "name": "react-login",
+  "version": "1.0.0",
+  "description": "react login app",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Sanket Mukherjee",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.6",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
